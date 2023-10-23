@@ -17,9 +17,33 @@ namespace PracticeUni
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Calculate_Practice1_Click(object sender, EventArgs e)
         {
 
+            FirstTask Calculate = new FirstTask();
+            double xn, xk, h, a;
+            try
+            {
+                xn = Convert.ToDouble(this.XnText.Text);
+                xk = Convert.ToDouble(this.XkText.Text);
+                h = Convert.ToDouble(this.hText.Text);
+                a = Convert.ToDouble(this.aText.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("incorrectly entered data", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            dataGridView1.Rows.Clear();
+            chart1.Series[0].Points.Clear();
+            Calculate.Calculate(xn, xk, h, a);
+            for (int i = 0; i < Calculate.n; i++)
+            {
+                dataGridView1.Rows.Add(Math.Round(Calculate.xy[i, 0], 2).ToString(),
+                    Math.Round(Calculate.xy[i,1],3).ToString());
+                chart1.Series[0].Points.AddXY(Calculate.xy[i, 0], Calculate.xy[i, 1]);
+            }
         }
     }
 }

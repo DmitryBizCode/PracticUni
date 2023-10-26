@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Calculate_Practice1 = new System.Windows.Forms.Button();
             this.XnText = new System.Windows.Forms.TextBox();
             this.XkText = new System.Windows.Forms.TextBox();
@@ -44,14 +44,19 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.arrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.onedimensionalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.twodimensionalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Calculate_Practice1
             // 
-            this.Calculate_Practice1.Location = new System.Drawing.Point(333, 37);
+            this.Calculate_Practice1.Location = new System.Drawing.Point(333, 63);
             this.Calculate_Practice1.Name = "Calculate_Practice1";
             this.Calculate_Practice1.Size = new System.Drawing.Size(91, 31);
             this.Calculate_Practice1.TabIndex = 0;
@@ -61,7 +66,7 @@
             // 
             // XnText
             // 
-            this.XnText.Location = new System.Drawing.Point(12, 43);
+            this.XnText.Location = new System.Drawing.Point(12, 69);
             this.XnText.Name = "XnText";
             this.XnText.Size = new System.Drawing.Size(71, 20);
             this.XnText.TabIndex = 1;
@@ -69,7 +74,7 @@
             // 
             // XkText
             // 
-            this.XkText.Location = new System.Drawing.Point(89, 43);
+            this.XkText.Location = new System.Drawing.Point(89, 69);
             this.XkText.Name = "XkText";
             this.XkText.Size = new System.Drawing.Size(71, 20);
             this.XkText.TabIndex = 2;
@@ -77,7 +82,7 @@
             // 
             // hText
             // 
-            this.hText.Location = new System.Drawing.Point(166, 43);
+            this.hText.Location = new System.Drawing.Point(166, 69);
             this.hText.Name = "hText";
             this.hText.Size = new System.Drawing.Size(71, 20);
             this.hText.TabIndex = 3;
@@ -85,7 +90,7 @@
             // 
             // aText
             // 
-            this.aText.Location = new System.Drawing.Point(243, 43);
+            this.aText.Location = new System.Drawing.Point(243, 69);
             this.aText.Name = "aText";
             this.aText.Size = new System.Drawing.Size(71, 20);
             this.aText.TabIndex = 4;
@@ -94,7 +99,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 18);
+            this.label1.Location = new System.Drawing.Point(25, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 13);
             this.label1.TabIndex = 5;
@@ -103,7 +108,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(103, 18);
+            this.label2.Location = new System.Drawing.Point(103, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(20, 13);
             this.label2.TabIndex = 6;
@@ -112,7 +117,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(186, 18);
+            this.label3.Location = new System.Drawing.Point(186, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 7;
@@ -121,7 +126,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(255, 18);
+            this.label4.Location = new System.Drawing.Point(255, 44);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(13, 13);
             this.label4.TabIndex = 8;
@@ -133,7 +138,7 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 109);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 135);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(302, 338);
             this.dataGridView1.TabIndex = 9;
@@ -152,31 +157,65 @@
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            this.chart1.Location = new System.Drawing.Point(379, 109);
+            chartArea6.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea6);
+            this.chart1.Location = new System.Drawing.Point(379, 135);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series6.Name = "Series1";
+            this.chart1.Series.Add(series6);
             this.chart1.Size = new System.Drawing.Size(466, 338);
             this.chart1.TabIndex = 10;
             this.chart1.Text = "chart1";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(440, 27);
+            this.pictureBox1.Image = global::PracticeUni.Properties.Resources.pr;
+            this.pictureBox1.Location = new System.Drawing.Point(440, 53);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(380, 56);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.arrayToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(846, 24);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // arrayToolStripMenuItem
+            // 
+            this.arrayToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.onedimensionalToolStripMenuItem,
+            this.twodimensionalToolStripMenuItem});
+            this.arrayToolStripMenuItem.Name = "arrayToolStripMenuItem";
+            this.arrayToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.arrayToolStripMenuItem.Text = "Array";
+            // 
+            // onedimensionalToolStripMenuItem
+            // 
+            this.onedimensionalToolStripMenuItem.Name = "onedimensionalToolStripMenuItem";
+            this.onedimensionalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.onedimensionalToolStripMenuItem.Text = "one-dimensional";
+            this.onedimensionalToolStripMenuItem.Click += new System.EventHandler(this.onedimensionalToolStripMenuItem_Click);
+            // 
+            // twodimensionalToolStripMenuItem
+            // 
+            this.twodimensionalToolStripMenuItem.Name = "twodimensionalToolStripMenuItem";
+            this.twodimensionalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.twodimensionalToolStripMenuItem.Text = "two-dimensional";
+            this.twodimensionalToolStripMenuItem.Click += new System.EventHandler(this.twodimensionalToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(846, 450);
+            this.ClientSize = new System.Drawing.Size(846, 478);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.dataGridView1);
@@ -189,11 +228,15 @@
             this.Controls.Add(this.XkText);
             this.Controls.Add(this.XnText);
             this.Controls.Add(this.Calculate_Practice1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Graphics";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,6 +258,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem arrayToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem onedimensionalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem twodimensionalToolStripMenuItem;
     }
 }
 

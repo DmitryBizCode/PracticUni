@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Calculate_Practice1 = new System.Windows.Forms.Button();
             this.XnText = new System.Windows.Forms.TextBox();
             this.XkText = new System.Windows.Forms.TextBox();
@@ -44,8 +44,10 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.arrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.onearrToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.twoarrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -155,14 +157,14 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            chartArea4.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea4);
             this.chart1.Location = new System.Drawing.Point(379, 135);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Name = "Series1";
+            this.chart1.Series.Add(series4);
             this.chart1.Size = new System.Drawing.Size(466, 338);
             this.chart1.TabIndex = 10;
             this.chart1.Text = "chart1";
@@ -176,6 +178,15 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // arrayToolStripMenuItem
+            // 
+            this.arrayToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.onearrToolStripMenuItem,
+            this.twoarrayToolStripMenuItem});
+            this.arrayToolStripMenuItem.Name = "arrayToolStripMenuItem";
+            this.arrayToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.arrayToolStripMenuItem.Text = "Array";
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -186,11 +197,19 @@
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // arrayToolStripMenuItem
+            // onearrToolStripMenuItem
             // 
-            this.arrayToolStripMenuItem.Name = "arrayToolStripMenuItem";
-            this.arrayToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.arrayToolStripMenuItem.Text = "Array";
+            this.onearrToolStripMenuItem.Name = "onearrToolStripMenuItem";
+            this.onearrToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.onearrToolStripMenuItem.Text = "One-array";
+            this.onearrToolStripMenuItem.Click += new System.EventHandler(this.onearrToolStripMenuItem_Click);
+            // 
+            // twoarrayToolStripMenuItem
+            // 
+            this.twoarrayToolStripMenuItem.Name = "twoarrayToolStripMenuItem";
+            this.twoarrayToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.twoarrayToolStripMenuItem.Text = "Two-array";
+            this.twoarrayToolStripMenuItem.Click += new System.EventHandler(this.twoarrayToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -239,8 +258,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem arrayToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem onearrToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem twoarrayToolStripMenuItem;
     }
 }
 

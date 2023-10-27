@@ -46,18 +46,5 @@ namespace PracticeUni
             }
         }
 
-        private void onedimensionalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var onearr = new OneArr();
-            onearr.Show();
-            this.Hide();
-        }
-
-        private void twodimensionalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var twoarr = new TwoArr();
-            twoarr.Show();
-            this.Hide();
-        }
     }
 }

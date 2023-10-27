@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Calculate_Practice1 = new System.Windows.Forms.Button();
             this.XnText = new System.Windows.Forms.TextBox();
             this.XkText = new System.Windows.Forms.TextBox();
@@ -46,8 +46,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.arrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.onedimensionalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.twodimensionalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -157,14 +155,14 @@
             // 
             // chart1
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea6);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Location = new System.Drawing.Point(379, 135);
             this.chart1.Name = "chart1";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series6.Name = "Series1";
-            this.chart1.Series.Add(series6);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(466, 338);
             this.chart1.TabIndex = 10;
             this.chart1.Text = "chart1";
@@ -190,26 +188,9 @@
             // 
             // arrayToolStripMenuItem
             // 
-            this.arrayToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.onedimensionalToolStripMenuItem,
-            this.twodimensionalToolStripMenuItem});
             this.arrayToolStripMenuItem.Name = "arrayToolStripMenuItem";
             this.arrayToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.arrayToolStripMenuItem.Text = "Array";
-            // 
-            // onedimensionalToolStripMenuItem
-            // 
-            this.onedimensionalToolStripMenuItem.Name = "onedimensionalToolStripMenuItem";
-            this.onedimensionalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.onedimensionalToolStripMenuItem.Text = "one-dimensional";
-            this.onedimensionalToolStripMenuItem.Click += new System.EventHandler(this.onedimensionalToolStripMenuItem_Click);
-            // 
-            // twodimensionalToolStripMenuItem
-            // 
-            this.twodimensionalToolStripMenuItem.Name = "twodimensionalToolStripMenuItem";
-            this.twodimensionalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.twodimensionalToolStripMenuItem.Text = "two-dimensional";
-            this.twodimensionalToolStripMenuItem.Click += new System.EventHandler(this.twodimensionalToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -260,8 +241,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem arrayToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem onedimensionalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem twodimensionalToolStripMenuItem;
     }
 }
 

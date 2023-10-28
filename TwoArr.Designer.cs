@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.RESLab = new System.Windows.Forms.Label();
+            this.Exit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,11 +116,22 @@
             this.RESLab.Size = new System.Drawing.Size(0, 18);
             this.RESLab.TabIndex = 1;
             // 
+            // Exit
+            // 
+            this.Exit.Location = new System.Drawing.Point(564, 342);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(75, 23);
+            this.Exit.TabIndex = 4;
+            this.Exit.Text = "Exit";
+            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
             // TwoArr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Exit);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Row);
             this.Controls.Add(this.Colom);
@@ -146,5 +158,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label RESLab;
+        private System.Windows.Forms.Button Exit;
     }
 }

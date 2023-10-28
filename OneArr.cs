@@ -45,5 +45,12 @@ namespace PracticeUni
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            var form = Application.OpenForms[0];
+            form.Show();
+            this.Close();
+        }
     }
 }

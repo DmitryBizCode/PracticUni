@@ -17,6 +17,8 @@ namespace PracticeUni
             InitializeComponent();
         }
 
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -50,6 +52,13 @@ namespace PracticeUni
             }
 
 
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            var form = Application.OpenForms[0];
+            form.Show();
+            this.Close();
         }
     }
 }

@@ -20,7 +20,7 @@ namespace PracticeUni
         private void button1_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
-            //dataGridView1.Columns.Clear();
+            dataGridView1.Columns.Clear();
             try
             {
                 if(!string.IsNullOrWhiteSpace(sur1.Text) && !string.IsNullOrWhiteSpace(sur1.Text) && !string.IsNullOrWhiteSpace(sur1.Text)

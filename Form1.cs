@@ -59,5 +59,12 @@ namespace PracticeUni
             Form.Show();
             this.Hide();
         }
+
+        private void unitTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var Form = new ToUnitTest();
+            Form.Show();
+            this.Hide();
+        }
     }
 }

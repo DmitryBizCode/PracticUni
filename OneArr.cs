@@ -20,7 +20,6 @@ namespace PracticeUni
         private void button1_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
-            dataGridView1.Columns.Clear();
             try
             {
                 if(!string.IsNullOrWhiteSpace(sur1.Text) && !string.IsNullOrWhiteSpace(sur1.Text) && !string.IsNullOrWhiteSpace(sur1.Text)
@@ -35,6 +34,12 @@ namespace PracticeUni
                 else
                 {
                     var arrone = new ArrayOne(5);
+                    sur1.Text = arrone[0];
+                    sur2.Text = arrone[1];
+                    sur3.Text = arrone[2];
+                    sur4.Text = arrone[3];
+                    sur5.Text = arrone[4];
+
                     arrone.Reverse();
                     for (int i = 0; i < arrone.Length; ++i)
                         dataGridView1.Rows.Add(arrone[i]);

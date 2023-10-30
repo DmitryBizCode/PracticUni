@@ -32,7 +32,6 @@ namespace PracticeUni
                 DataGridViewTextBoxColumn datag = new DataGridViewTextBoxColumn();
                 for (int i = 0; i < m; i++)
                 {
-                    datag = new DataGridViewTextBoxColumn();
                     datag.Width = 40;
                     dataGridView1.Columns.Add(datag);
                 }

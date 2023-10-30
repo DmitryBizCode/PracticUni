@@ -42,7 +42,7 @@ namespace PracticeUni
                 }
                 xy[i, 0] = x;
                 xy[i, 1] = y;
-                x = x + h;
+                x += h;
                 i++;
             }
             n = i;

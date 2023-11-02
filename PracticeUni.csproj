@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayOne.cs" />
+    <Compile Include="Array_change.cs" />
     <Compile Include="FirstTask.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -55,6 +56,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Infile.cs" />
+    <Compile Include="Outfile.cs" />
+    <Compile Include="Show_arr_solid.cs" />
     <Compile Include="MatrixArr.cs" />
     <Compile Include="OneArr.cs">
       <SubType>Form</SubType>
@@ -65,6 +69,13 @@
     <Compile Include="Pract3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Readfile.cs" />
+    <Compile Include="SOLID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SOLID.Designer.cs">
+      <DependentUpon>SOLID.cs</DependentUpon>
+    </Compile>
     <Compile Include="ToUnitTest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +88,7 @@
     <Compile Include="TwoArr.Designer.cs">
       <DependentUpon>TwoArr.cs</DependentUpon>
     </Compile>
+    <Compile Include="Writefile.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +105,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SOLID.resx">
+      <DependentUpon>SOLID.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ToUnitTest.resx">
       <DependentUpon>ToUnitTest.cs</DependentUpon>
     </EmbeddedResource>

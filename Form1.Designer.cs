@@ -49,6 +49,7 @@
             this.twoarrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.unitTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sOLIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -191,14 +192,14 @@
             // onearrToolStripMenuItem
             // 
             this.onearrToolStripMenuItem.Name = "onearrToolStripMenuItem";
-            this.onearrToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.onearrToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.onearrToolStripMenuItem.Text = "One-array";
             this.onearrToolStripMenuItem.Click += new System.EventHandler(this.onearrToolStripMenuItem_Click);
             // 
             // twoarrayToolStripMenuItem
             // 
             this.twoarrayToolStripMenuItem.Name = "twoarrayToolStripMenuItem";
-            this.twoarrayToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.twoarrayToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.twoarrayToolStripMenuItem.Text = "Two-array";
             this.twoarrayToolStripMenuItem.Click += new System.EventHandler(this.twoarrayToolStripMenuItem_Click);
             // 
@@ -206,7 +207,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arrayToolStripMenuItem,
-            this.unitTestToolStripMenuItem});
+            this.unitTestToolStripMenuItem,
+            this.sOLIDToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(846, 24);
@@ -219,6 +221,13 @@
             this.unitTestToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.unitTestToolStripMenuItem.Text = "Unit Test";
             this.unitTestToolStripMenuItem.Click += new System.EventHandler(this.unitTestToolStripMenuItem_Click);
+            // 
+            // sOLIDToolStripMenuItem
+            // 
+            this.sOLIDToolStripMenuItem.Name = "sOLIDToolStripMenuItem";
+            this.sOLIDToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.sOLIDToolStripMenuItem.Text = "SOLID";
+            this.sOLIDToolStripMenuItem.Click += new System.EventHandler(this.sOLIDToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -272,6 +281,7 @@
         private System.Windows.Forms.ToolStripMenuItem onearrToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem twoarrayToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem unitTestToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sOLIDToolStripMenuItem;
     }
 }
 

@@ -66,5 +66,12 @@ namespace PracticeUni
             Form.Show();
             this.Hide();
         }
+
+        private void sOLIDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var Form = new SOLID();
+            Form.Show();
+            this.Hide();
+        }
     }
 }

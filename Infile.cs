@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PracticeUni
 {
-    internal class Infile : IWritefile
+    public class Infile : IWritefile
     {
         public Infile() { }
         public void Writeinit(string str, Array_change a)

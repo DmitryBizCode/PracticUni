@@ -58,6 +58,8 @@
     </Compile>
     <Compile Include="Infile.cs" />
     <Compile Include="Outfile.cs" />
+    <Compile Include="Powerarray.cs" />
+    <Compile Include="IPower_arr.cs" />
     <Compile Include="Show_arr_solid.cs" />
     <Compile Include="MatrixArr.cs" />
     <Compile Include="OneArr.cs">
@@ -69,7 +71,7 @@
     <Compile Include="Pract3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Readfile.cs" />
+    <Compile Include="IReadfile.cs" />
     <Compile Include="SOLID.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,7 +90,7 @@
     <Compile Include="TwoArr.Designer.cs">
       <DependentUpon>TwoArr.cs</DependentUpon>
     </Compile>
-    <Compile Include="Writefile.cs" />
+    <Compile Include="IWritefile.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +116,7 @@
     <EmbeddedResource Include="TwoArr.resx">
       <DependentUpon>TwoArr.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

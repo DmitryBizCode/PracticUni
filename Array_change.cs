@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticeUni
 {
-    internal class Array_change
+    public class Array_change
     {
 
         public List<double> arr1 = new List<double>();
@@ -23,26 +23,37 @@ namespace PracticeUni
             }
         }
         public void Update_array() {
-            for (int i = 0; i < arr1.Count; ++i)
+            try
             {
-                if (arr1[i] < 0 && arr2[i] < 0)
+                for (int i = 0; i < arr1.Count; ++i)
                 {
-                    arr1[i] += 0.5;
-                    arr2[i] += 0.5;
-                }
-                else if (arr1[i] < 0 || arr2[i] < 0)
-                {
-                    if (arr1[i] < 0)
-                        arr1[i] = arr1[i] * arr1[i];
+                    if (arr1[i] < 0 && arr2[i] < 0)
+                    {
+                        arr1[i] += 0.5;
+                        arr2[i] += 0.5;
+                    }
+                    else if (arr1[i] < 0 || arr2[i] < 0)
+                    {
+                        if (arr1[i] < 0)
+                            arr1[i] = Math.Round(arr1[i] * arr1[i], 2);
+                        else
+                            arr2[i] = Math.Round(arr2[i] * arr2[i], 2);
+                    }
                     else
-                        arr2[i] = arr2[i] * arr2[i];
+                    {
+                        arr1[i] = Math.Round((arr2[i] + arr1[i]) / 2, 2);
+                        arr2[i] = arr1[i];
+                    }
                 }
-                else
+                if (arr1.Count != arr2.Count)
                 {
-                    arr1[i] = (arr2[i] + arr1[i]) / 2;
-                    arr2[i] = arr1[i];
+                    throw new ArgumentOutOfRangeException("Invalid enter data");
                 }
             }
+            catch {
+                throw new ArgumentOutOfRangeException("Invalid enter data");
+            }
+            
         }
     }
 }

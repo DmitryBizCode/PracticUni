@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PracticeUni.Array_change">
+    <Position X="3.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Array_change.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.ArrayOne">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACEEAAABAAAAAABAgAAACAAAAAAA=</HashCode>
+      <FileName>ArrayOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.FirstTask">
+    <Position X="7" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAAAAEACAAAAACEAAAAAAAAAA=</HashCode>
+      <FileName>FirstTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.Form1">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAECQACiBABAgAACQAAAKBAkwAIAAAAAIAABAAAQ=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.Infile">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PracticeUni.MatrixArr">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAQAACAEAAIAAAACAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>MatrixArr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.OneArr">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAehAAAACAAAACQAgIAAAAIEAAAAAAAAA=</HashCode>
+      <FileName>OneArr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.Outfile">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Outfile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PracticeUni.Powerarray">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Powerarray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PracticeUni.Pract3">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAAAoAEAAAA=</HashCode>
+      <FileName>Pract3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.Program">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.Show_arr_solid">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Show_arr_solid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.SOLID">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAAOAAIYAAAAAGAADAAEAAA=</HashCode>
+      <FileName>SOLID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.ToUnitTest">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAACAAABABBACAABACAAA4AAQAEHCAAAABBAA=</HashCode>
+      <FileName>ToUnitTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeUni.TwoArr">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAABCAAAECQAgIAgAAIEAAAAAAAAA=</HashCode>
+      <FileName>TwoArr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PracticeUni.IPower_arr" Collapsed="true">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPower_arr.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PracticeUni.IReadfile" Collapsed="true">
+    <Position X="14" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>IReadfile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PracticeUni.IWritefile" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWritefile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

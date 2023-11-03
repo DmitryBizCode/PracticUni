@@ -75,36 +75,40 @@
             // Arrxa
             // 
             this.Arrxa.AutoSize = true;
+            this.Arrxa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Arrxa.Location = new System.Drawing.Point(16, 175);
             this.Arrxa.Name = "Arrxa";
-            this.Arrxa.Size = new System.Drawing.Size(85, 29);
+            this.Arrxa.Size = new System.Drawing.Size(69, 24);
             this.Arrxa.TabIndex = 3;
             this.Arrxa.Text = "Array x";
             // 
             // Arrya
             // 
             this.Arrya.AutoSize = true;
+            this.Arrya.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Arrya.Location = new System.Drawing.Point(16, 219);
             this.Arrya.Name = "Arrya";
-            this.Arrya.Size = new System.Drawing.Size(85, 29);
+            this.Arrya.Size = new System.Drawing.Size(68, 24);
             this.Arrya.TabIndex = 4;
             this.Arrya.Text = "Array y";
             // 
             // Arrxb
             // 
             this.Arrxb.AutoSize = true;
+            this.Arrxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Arrxb.Location = new System.Drawing.Point(16, 318);
             this.Arrxb.Name = "Arrxb";
-            this.Arrxb.Size = new System.Drawing.Size(85, 29);
+            this.Arrxb.Size = new System.Drawing.Size(69, 24);
             this.Arrxb.TabIndex = 3;
             this.Arrxb.Text = "Array x";
             // 
             // Arryb
             // 
             this.Arryb.AutoSize = true;
+            this.Arryb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Arryb.Location = new System.Drawing.Point(16, 362);
             this.Arryb.Name = "Arryb";
-            this.Arryb.Size = new System.Drawing.Size(85, 29);
+            this.Arryb.Size = new System.Drawing.Size(68, 24);
             this.Arryb.TabIndex = 4;
             this.Arryb.Text = "Array y";
             // 

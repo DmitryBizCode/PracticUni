@@ -30,18 +30,21 @@ namespace PracticeUni
             var file = new Infile();
             var show = new Show_arr_solid();
             var fileout = new Outfile();
+            var Powerarr = new Powerarray();
             string namefile = "1.txt";
             try
             {
+                var pow = Convert.ToDouble(Snumber.Text);
 
                 if (string.IsNullOrWhiteSpace(File_name.Text))
                 {
-                    a.Create_array();//create array random
+                    a.Create_array(); //create array random
                     //
                     Arrxa.Text = show.Show_arr(a.arr1);
                     Arrya.Text = show.Show_arr(a.arr2);
                     //
-                    a.Update_array();//change array
+                    Powerarr.Power_number_array(pow, a); //Power our array
+                    a.Update_array(); //change array
                     //
                     Arrxb.Text = show.Show_arr(a.arr1);
                     Arryb.Text = show.Show_arr(a.arr2);
@@ -57,8 +60,9 @@ namespace PracticeUni
                     Arrxa.Text = show.Show_arr(a.arr1);
                     Arrya.Text = show.Show_arr(a.arr2);
                     //
-                    a.Update_array();//change array
-                    //
+                    Powerarr.Power_number_array(pow, a); //Power our array
+                    a.Update_array(); //change array
+                    // 
                     Arrxb.Text = show.Show_arr(a.arr1);
                     Arryb.Text = show.Show_arr(a.arr2);
                     //

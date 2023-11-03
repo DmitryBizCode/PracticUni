@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PracticeUni
 {
-    internal class Outfile
+    public class Outfile : IReadfile
     {
         public void Readfromit(string filename, Array_change a)
         {
@@ -34,10 +34,11 @@ namespace PracticeUni
                         count++;
                     }
                 }
-                catch
+                
+                catch (FormatException ex)
                 {
-                    throw new AccessViolationException("Error in file");
-                }
+                    throw ex;
+                }            
             }
         }
     }
